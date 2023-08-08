@@ -15,6 +15,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+     position: relative;
 }
 main
 {
@@ -154,7 +155,7 @@ img
 footer
 {
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 3%;
     text-align: center;
 }
@@ -173,5 +174,6 @@ footer
     .three
     {
         order: 1;
+        margin-bottom: 50px;
     }
 }
